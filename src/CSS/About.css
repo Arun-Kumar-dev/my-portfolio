@@ -19,7 +19,7 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    height: 600px;
+    min-height: 600px;
     margin-top: -40px;
 }
 
@@ -112,15 +112,16 @@
     .about{
         gap: 80px;
         margin: 50px 70px;
-        align-items: start;
+        align-items: flex-start;
     }
     .about-tittle h1{
-        font-size: 50px;
+        font-size: 40px;
         padding: 0;
     }
     .about-sections{
         flex-direction: column;
         margin-top: -55px;
+        min-height: auto;
     }
     .about-left{
         display: none;
@@ -146,3 +147,4 @@
         text-align: center;
       }
 }
+
